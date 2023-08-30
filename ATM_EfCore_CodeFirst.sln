@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATM_EfCore_CodeFirst", "ATM_EfCore_CodeFirst\ATM_EfCore_CodeFirst.csproj", "{B8B36449-3514-4D3F-900F-EDF17C18F874}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8B36449-3514-4D3F-900F-EDF17C18F874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8B36449-3514-4D3F-900F-EDF17C18F874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8B36449-3514-4D3F-900F-EDF17C18F874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8B36449-3514-4D3F-900F-EDF17C18F874}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C98AEDA-0B0C-4B3A-9F6F-3961D12DB185}
+	EndGlobalSection
+EndGlobal

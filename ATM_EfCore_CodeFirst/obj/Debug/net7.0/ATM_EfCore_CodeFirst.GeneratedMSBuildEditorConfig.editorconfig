@@ -1,0 +1,77 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ATM_EfCore_CodeFirst
+build_property.RootNamespace = ATM_EfCore_CodeFirst
+build_property.ProjectDir = C:\Users\M udharshan\source\repos\ATM_EfCore_CodeFirst\ATM_EfCore_CodeFirst\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\M udharshan\source\repos\ATM_EfCore_CodeFirst\ATM_EfCore_CodeFirst
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/M udharshan/source/repos/ATM_EfCore_CodeFirst/ATM_EfCore_CodeFirst/Views/ATM/ChangePwd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVRNXENoYW5nZVB3ZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M udharshan/source/repos/ATM_EfCore_CodeFirst/ATM_EfCore_CodeFirst/Views/ATM/CreateCustomerInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVRNXENyZWF0ZUN1c3RvbWVySW5mby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M udharshan/source/repos/ATM_EfCore_CodeFirst/ATM_EfCore_CodeFirst/Views/ATM/Deposit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVRNXERlcG9zaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M udharshan/source/repos/ATM_EfCore_CodeFirst/ATM_EfCore_CodeFirst/Views/ATM/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVRNXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M udharshan/source/repos/ATM_EfCore_CodeFirst/ATM_EfCore_CodeFirst/Views/ATM/MainPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVRNXE1haW5QYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M udharshan/source/repos/ATM_EfCore_CodeFirst/ATM_EfCore_CodeFirst/Views/ATM/MiniState.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVRNXE1pbmlTdGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M udharshan/source/repos/ATM_EfCore_CodeFirst/ATM_EfCore_CodeFirst/Views/ATM/ShowBalance.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVRNXFNob3dCYWxhbmNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M udharshan/source/repos/ATM_EfCore_CodeFirst/ATM_EfCore_CodeFirst/Views/ATM/Withdraw.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVRNXFdpdGhkcmF3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M udharshan/source/repos/ATM_EfCore_CodeFirst/ATM_EfCore_CodeFirst/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M udharshan/source/repos/ATM_EfCore_CodeFirst/ATM_EfCore_CodeFirst/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M udharshan/source/repos/ATM_EfCore_CodeFirst/ATM_EfCore_CodeFirst/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M udharshan/source/repos/ATM_EfCore_CodeFirst/ATM_EfCore_CodeFirst/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M udharshan/source/repos/ATM_EfCore_CodeFirst/ATM_EfCore_CodeFirst/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M udharshan/source/repos/ATM_EfCore_CodeFirst/ATM_EfCore_CodeFirst/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M udharshan/source/repos/ATM_EfCore_CodeFirst/ATM_EfCore_CodeFirst/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-cke2dgioe1

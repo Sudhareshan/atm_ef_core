@@ -1,0 +1,49 @@
+﻿@model ATM_EfCore_CodeFirst.Models.Bank_CustomersModel
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Registertion</h1>
+
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="CreateCustomerInfo",asp-controller="ATM">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CustomerName" class="control-label"></label>
+                <input asp-for="CustomerName" class="form-control" />
+                <span asp-validation-for="CustomerName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MobileNumber" class="control-label"></label>
+                <input asp-for="MobileNumber" class="form-control" />
+                <span asp-validation-for="MobileNumber" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Balance" class="control-label"></label>
+                <input type="text" asp-for="Balance" class="form-control" value="2000" readonly />
+                <span asp-validation-for="Balance" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Login">Back to Login</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+@if(ViewBag!=null){
+    <label>Your Account Number = @ViewBag.Userid</label>
+    <br />
+    <label>Your pin Number= @ViewBag.pwd</label>
+}

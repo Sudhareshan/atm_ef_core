@@ -1,0 +1,56 @@
+﻿@model IEnumerable<ATM_EfCore_CodeFirst.Models.TransationModel>
+<h1>Mini Statement</h1>
+
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Deposit" ,asp-controller="ATM">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label>Welcome @ViewBag.CustomerName</label>
+            </div>
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.AccountNumber)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Trans_Time)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Amount)
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.AccountNumber)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Trans_Time)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Amount)
+                            </td>
+
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+
+
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="MainPage">Back</a>
+</div>

@@ -1,0 +1,43 @@
+﻿@model ATM_EfCore_CodeFirst.Models.Bank_CustomersModel
+<h1>Change Password</h1>
+
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="ChangePwd",asp-controller="ATM">
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Balance">Welcome @ViewBag.CustomerName</label>
+            </div>
+          
+            <div class="form-group">
+                <label asp-for="PinNumber" class="control-label"></label>
+                <input asp-for="PinNumber" class="form-control" />
+                <span asp-validation-for="PinNumber" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label  class="control-label">New password</label>
+                <input name="repwd" class="form-control" value="" placeholder="Enter New Password" />
+                <span asp-validation-for="PinNumber" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label">Conform password</label>
+                <input  class="form-control"  name="ConformPwd" value="" placeholder="Re-Enter Password"/>
+                <span asp-validation-for="PinNumber" class="text-danger"></span>
+            </div>
+
+
+            <div class="form-group">
+                <input type="submit" value="Deposit" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="MainPage">Back</a>
+</div>
